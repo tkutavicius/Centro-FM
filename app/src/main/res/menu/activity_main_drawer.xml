@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="CentroFM - 106.1 MHz dažniu!">
+        <menu>
+            <item
+                android:id="@+id/nav_kontaktai"
+                android:icon="@drawable/ic_kontaktai"
+                android:title="Kontaktai" />
+            <item
+                android:id="@+id/nav_programa"
+                android:icon="@drawable/ic_programa"
+                android:title="Laidų programa" />
+            <item
+                android:id="@+id/nav_uzsakyk"
+                android:icon="@drawable/ic_uzsakyk"
+                android:title="Užsakyk dainą!" />
+            <item
+                android:id="@+id/nav_balsuok"
+                android:icon="@drawable/ic_balsuok"
+                android:title="Balsuok už radijo stotį!" />
+        </menu>
+    </item>
+
+    <item android:title="Socialiniai tinklai">
+        <menu>
+            <item
+                android:id="@+id/nav_tinklapis"
+                android:icon="@drawable/ic_tinklapis"
+                android:title="Internetinis tinklapis" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="Facebook puslapis" />
+            <item
+                android:id="@+id/nav_google"
+                android:icon="@drawable/ic_google"
+                android:title="Google+ paskyra" />
+        </menu>
+    </item>
+
+</menu>
