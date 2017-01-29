@@ -18,7 +18,6 @@ public class BackgroundRadio extends Service {
     private static final String TAG = null;
     static MediaPlayer grotuvas;
     Uri source;
-
     public IBinder onBind(Intent arg0) {
 
         return null;
@@ -58,7 +57,7 @@ public class BackgroundRadio extends Service {
                 Notification noti = new Notification.Builder(getApplicationContext())
                         .setTicker("CentroFM - Kėdainių radijo stotis")
                         .setContentTitle("Jūsų telefone groja CentroFM!")
-                        .setContentText("Klausyitės ir 106.1 MHz dažniu!")
+                        .setContentText("Klausykitės ir 106.1 MHz dažniu!")
                         .setSmallIcon(R.drawable.icon)
                         .setContentIntent(pIntent).getNotification();
                 NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
