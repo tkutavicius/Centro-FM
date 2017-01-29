@@ -7,16 +7,6 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/play"
-        android:clickable="true"
-        android:id="@+id/play"
-        android:layout_marginBottom="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:src="@drawable/internallogo"
         android:layout_marginTop="77dp"
@@ -29,7 +19,33 @@
         app:srcCompat="@drawable/pause"
         android:clickable="true"
         android:id="@+id/pause"
-        android:layout_alignTop="@+id/play"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/play" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/play"
+        android:clickable="true"
+        android:id="@+id/play"
+        android:layout_alignTop="@+id/pause"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:id="@+id/textView"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:text="hrgr"
+        android:layout_above="@+id/pause"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>
