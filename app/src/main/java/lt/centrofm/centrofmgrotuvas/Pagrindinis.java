@@ -75,21 +75,10 @@ public class Pagrindinis extends Fragment {
                     new Response.Listener<JSONObject>() {
                         @Override
                         public void onResponse(JSONObject response) {
-
                             try{
-
                                 JSONArray ja = response.getJSONArray("songs");
-
-                                for(int i=0; i < 1; i++){
-
-                                    JSONObject jsonObject = ja.getJSONObject(i);
-
-                                    // int id = Integer.parseInt(jsonObject.optString("id").toString());
-                                    String artist = jsonObject.getString("artist");
-                                    String track = jsonObject.getString("track");
-
-                                    data = artist +" - "+ track +"";
-                                }
+                                JSONObject jsonObject = ja.getJSONObject(0);
+                                data = jsonObject.getString("artist") +" - "+ jsonObject.getString("track") +"";
                                 output.setText(data);
                             }catch(JSONException e){
                                 e.printStackTrace();
@@ -101,15 +90,13 @@ public class Pagrindinis extends Fragment {
                         public void onErrorResponse(VolleyError error) {
                             output.setText(reklamos[reiksme]);
                             Log.e("Volley","Error");
-
                         }
                     }
             );
             requestQueue.add(jor);
             img_play.setVisibility(View.INVISIBLE);
             getActivity().startService(serviceIntent);
-            Toast.makeText(getActivity(),
-                    "Kraunama...", Toast.LENGTH_LONG).show();
+            Toast.makeText(getActivity(), "Kraunama...", Toast.LENGTH_LONG).show();
             final Handler refresh = new Handler();
             refresh.postDelayed(new Runnable() {
                 @Override
@@ -121,19 +108,9 @@ public class Pagrindinis extends Fragment {
                                 public void onResponse(JSONObject response) {
 
                                     try{
-
                                         JSONArray ja = response.getJSONArray("songs");
-
-                                        for(int i=0; i < 1; i++){
-
-                                            JSONObject jsonObject = ja.getJSONObject(i);
-
-                                            // int id = Integer.parseInt(jsonObject.optString("id").toString());
-                                            String artist = jsonObject.getString("artist");
-                                            String track = jsonObject.getString("track");
-
-                                            data = artist +" - "+ track +"";
-                                        }
+                                        JSONObject jsonObject = ja.getJSONObject(0);
+                                        data = jsonObject.getString("artist") +" - "+ jsonObject.getString("track") +"";
                                         output.setText(data);
                                     }catch(JSONException e){
                                         e.printStackTrace();
@@ -180,8 +157,7 @@ public class Pagrindinis extends Fragment {
                         img_play.setVisibility(View.INVISIBLE);
                         img_pause.setVisibility(View.VISIBLE);
                         getActivity().startService(serviceIntent);
-                        Toast.makeText(getActivity(),
-                                "Kraunama...", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getActivity(), "Kraunama...", Toast.LENGTH_LONG).show();
                     }
                     else
                     {
