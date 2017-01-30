@@ -2,346 +2,184 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_1c5d2f574f46f5d795d56e6023ddfc93499260e0\classes.dex" />
-    </item>
-    <item
         is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\internal_impl-24.2.0_6f9f34841c03ff2f4c3121b7bc687685717230e0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\internal_impl-24.2.0_1c5d2f574f46f5d795d56e6023ddfc93499260e0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-24.2.0_49efeb8bf3902daef24b1a89c346ec8913418c6a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-24.2.0_fe9977266db17f1425893a06aae037aab2ecbad2.jar" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_49efeb8bf3902daef24b1a89c346ec8913418c6a\classes.dex" />
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_49efeb8bf3902daef24b1a89c346ec8913418c6a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-24.2.0_8d435b0415894139f5c7ed0c3a81d9fd377af1fd.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Development\Centro-FM\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="d71dfa48c6ffa22cf1a70d447e86124b49853fdb">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8d88616a9b4e889646bb4bf36085f659e01ccb8f\classes.dex" />
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_e96e08b5ce847a6d60310d4a4a20e6e1f7b64e24.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_8d435b0415894139f5c7ed0c3a81d9fd377af1fd\classes.dex" />
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.0_8d435b0415894139f5c7ed0c3a81d9fd377af1fd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-24.2.0_0e4412498950e5cf62a4f0a55b31ff676fad947f.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_3100121d1b8285b2990ae5b2a0ed65ef981205b3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_5cd5f54673dde82cae4149401d8234806cb90cc6\classes.dex" />
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_1c5d2f574f46f5d795d56e6023ddfc93499260e0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
+        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\internal_impl-24.2.0_3100121d1b8285b2990ae5b2a0ed65ef981205b3.jar" />
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_3ffbcc3c0692c56ceac335be520b3e4a77c82e92.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="C:\Users\Ignas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_80333c772265289c9c1534e2482caa07d5f057bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_fe9977266db17f1425893a06aae037aab2ecbad2\classes.dex" />
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_fe9977266db17f1425893a06aae037aab2ecbad2.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_571d485ce1eca7cd6d2e016e9ea07972c999d8bd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_0e4412498950e5cf62a4f0a55b31ff676fad947f\classes.dex" />
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.0_571d485ce1eca7cd6d2e016e9ea07972c999d8bd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\com.mcxiaoke.volley-library-aar-1.0.0_5cd5f54673dde82cae4149401d8234806cb90cc6.jar" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\Development\Centro-FM\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="753cf9d8409390d97162eeb46739b263ff463c9d">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d007c87114406928e3406ddb41f810c2a9f7f9a5\classes.dex" />
+        sha1="b66a1330c6d8d45231dd4aa2e107791161bd2efd">
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\instant-run_d007c87114406928e3406ddb41f810c2a9f7f9a5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-24.2.0_35f21b702d82a0b5628c9b005fb44473b04ff41d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-24.2.0_c81ef1212a17e913a302a78896291412e6aa10a2.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_35f21b702d82a0b5628c9b005fb44473b04ff41d\classes.dex" />
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_3100121d1b8285b2990ae5b2a0ed65ef981205b3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\com.android.support-design-24.2.0_571d485ce1eca7cd6d2e016e9ea07972c999d8bd.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_c81ef1212a17e913a302a78896291412e6aa10a2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_419fbfdc8190c6f6e80f6b542547fec672c3c66b\classes.dex" />
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_419fbfdc8190c6f6e80f6b542547fec672c3c66b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-24.2.0_419fbfdc8190c6f6e80f6b542547fec672c3c66b.jar" />
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_0e4412498950e5cf62a4f0a55b31ff676fad947f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\com.mcxiaoke.volley-library-aar-1.0.0_5cd5f54673dde82cae4149401d8234806cb90cc6.jar" />
     </item>
     <item
         is-multidex="false"
         jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-24.2.0_bca331d5f3369b268e32ca77741cd692c0d72b04.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_bca331d5f3369b268e32ca77741cd692c0d72b04\classes.dex" />
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_bca331d5f3369b268e32ca77741cd692c0d72b04.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\internal_impl-24.2.0_3ffbcc3c0692c56ceac335be520b3e4a77c82e92.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ignas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\support-annotations-24.2.0_80333c772265289c9c1534e2482caa07d5f057bb.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_3ffbcc3c0692c56ceac335be520b3e4a77c82e92\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Ignas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_80333c772265289c9c1534e2482caa07d5f057bb\classes.dex" />
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_35f21b702d82a0b5628c9b005fb44473b04ff41d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-24.2.0_789bdccc9fcf40149b64818fe817ecec3937c298.jar" />
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_c81ef1212a17e913a302a78896291412e6aa10a2.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_789bdccc9fcf40149b64818fe817ecec3937c298\classes.dex" />
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_789bdccc9fcf40149b64818fe817ecec3937c298.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        is-multidex="false"
+        jar="D:\Development\Centro-FM\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_e96e08b5ce847a6d60310d4a4a20e6e1f7b64e24\classes.dex" />
+        sha1="60a82869a2177310cb257cab0d37341607447724">
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_8d88616a9b4e889646bb4bf36085f659e01ccb8f.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_6f9f34841c03ff2f4c3121b7bc687685717230e0\classes.dex" />
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_6f9f34841c03ff2f4c3121b7bc687685717230e0.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_ae9e2cb6af00c63731c1bc6dfca9c5a90e07175f\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\internal_impl-24.2.0_ae9e2cb6af00c63731c1bc6dfca9c5a90e07175f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Development\Centro-FM\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-24.2.0_e96e08b5ce847a6d60310d4a4a20e6e1f7b64e24.jar" />
+        <dex dex="D:\Development\Centro-FM\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_ae9e2cb6af00c63731c1bc6dfca9c5a90e07175f.jar" />
     </item>
 
 </items>

@@ -33,13 +33,25 @@ import java.util.Random;
 public class Pagrindinis extends Fragment {
 
     public Pagrindinis() {
+
     }
 
     String loginURL="http://centrofm.lt/json/groja-json.php";
     String data = "";
     RequestQueue requestQueue;
 
-    String reklamos[] = {"Internto svetainė - www.centrofm.lt","Apsilankykite mūsų Facebook puslapyje!","Klausykite CentroFM 106.1 MHz dažniu Kėdainių rajone!", "Klausykite Lietuvos bei pasaulio žinių kiekvienos valandos pradžioje!", "CentroFM - tai mūsų radijas!", "CentroFM - Kėdainių regioninė radijo stotis!", "Laidų įrašus galite rasti www.centrofm.lt", "Radijo programą galite rasti www.centrofm.lt", "Centro FM - tiesiai į ausį!"};
+    String reklamos[] = {
+            "Internto svetainė - www.centrofm.lt",
+            "Apsilankykite mūsų Facebook puslapyje!",
+            "Klausykite CentroFM 106.1 MHz dažniu Kėdainių rajone!",
+            "Klausykite Lietuvos bei pasaulio žinių kiekvienos valandos pradžioje!",
+            "CentroFM - tai mūsų radijas!",
+            "CentroFM - Kėdainių regioninė radijo stotis!",
+            "Laidų įrašus galite rasti www.centrofm.lt",
+            "Radijo programą galite rasti www.centrofm.lt",
+            "Centro FM - tiesiai į ausį!"
+    };
+
     final Random rand = new Random();
     int reiksme = rand.nextInt(9);
 
@@ -49,9 +61,9 @@ public class Pagrindinis extends Fragment {
         final View rootView = inflater.inflate(R.layout.pagrindinis_fragment, container,
                 false);
 
-        final ImageView img = (ImageView)rootView.findViewById(R.id.play);
-        final ImageView img1 = (ImageView)rootView.findViewById(R.id.pause);
-        final TextView output = (TextView) rootView.findViewById(R.id.textView);
+        final ImageView img_play = (ImageView)rootView.findViewById(R.id.play);
+        final ImageView img_pause = (ImageView)rootView.findViewById(R.id.pause);
+        final TextView output = (TextView) rootView.findViewById(R.id.tv_nowPlaying);
         requestQueue = Volley.newRequestQueue(getActivity());
         final Intent serviceIntent = new Intent(getActivity(), BackgroundRadio.class);
 
@@ -94,7 +106,7 @@ public class Pagrindinis extends Fragment {
                     }
             );
             requestQueue.add(jor);
-            img.setVisibility(View.INVISIBLE);
+            img_play.setVisibility(View.INVISIBLE);
             getActivity().startService(serviceIntent);
             Toast.makeText(getActivity(),
                     "Kraunama...", Toast.LENGTH_LONG).show();
@@ -144,36 +156,36 @@ public class Pagrindinis extends Fragment {
         }
         else
         {
-            img1.setVisibility(View.INVISIBLE);
+            img_pause.setVisibility(View.INVISIBLE);
             AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
             builder.setTitle("Perspėjimas!");
             builder.setMessage("Prašome prisijungti prie interneto!");
             AlertDialog alert = builder.create();
             alert.show();
         }
-        img1.setOnClickListener(new View.OnClickListener() {
+        img_pause.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                img.setVisibility(View.VISIBLE);
-                img1.setVisibility(View.INVISIBLE);
+                img_play.setVisibility(View.VISIBLE);
+                img_pause.setVisibility(View.INVISIBLE);
                 getActivity().stopService(serviceIntent);
             }
         });
 
-        img.setOnClickListener(new View.OnClickListener() {
+        img_play.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 ConnectivityManager connectivityManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
                 if (connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
                         connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED)
                     {
-                        img.setVisibility(View.INVISIBLE);
-                        img1.setVisibility(View.VISIBLE);
+                        img_play.setVisibility(View.INVISIBLE);
+                        img_pause.setVisibility(View.VISIBLE);
                         getActivity().startService(serviceIntent);
                         Toast.makeText(getActivity(),
                                 "Kraunama...", Toast.LENGTH_LONG).show();
                     }
                     else
                     {
-                        img1.setVisibility(View.INVISIBLE);
+                        img_pause.setVisibility(View.INVISIBLE);
                         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
                         builder.setTitle("Perspėjimas!");
                         builder.setMessage("Prašome prisijungti prie interneto!");
