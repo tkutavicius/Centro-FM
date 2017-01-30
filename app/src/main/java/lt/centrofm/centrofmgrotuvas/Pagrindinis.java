@@ -76,7 +76,7 @@ public class Pagrindinis extends Fragment {
                                     String artist = jsonObject.getString("artist");
                                     String track = jsonObject.getString("track");
 
-                                    data = "Eteryje: "+ artist +" - "+ track +"";
+                                    data = artist +" - "+ track +"";
                                 }
                                 output.setText(data);
                             }catch(JSONException e){
@@ -120,7 +120,7 @@ public class Pagrindinis extends Fragment {
                                             String artist = jsonObject.getString("artist");
                                             String track = jsonObject.getString("track");
 
-                                            data = "Eteryje: "+ artist +" - "+ track +"";
+                                            data = artist +" - "+ track +"";
                                         }
                                         output.setText(data);
                                     }catch(JSONException e){
