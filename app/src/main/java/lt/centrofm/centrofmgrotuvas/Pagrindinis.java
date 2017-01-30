@@ -58,8 +58,7 @@ public class Pagrindinis extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View rootView = inflater.inflate(R.layout.pagrindinis_fragment, container,
-                false);
+        final View rootView = inflater.inflate(R.layout.pagrindinis_fragment, container, false);
 
         final ImageView img_play = (ImageView)rootView.findViewById(R.id.play);
         final ImageView img_pause = (ImageView)rootView.findViewById(R.id.pause);
