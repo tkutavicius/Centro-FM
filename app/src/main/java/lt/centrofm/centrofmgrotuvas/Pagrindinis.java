@@ -9,6 +9,8 @@ import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
+import android.telephony.PhoneStateListener;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,6 +32,8 @@ import org.json.JSONObject;
 
 import java.util.Random;
 
+import static android.content.Context.TELEPHONY_SERVICE;
+
 public class Pagrindinis extends Fragment {
 
     public Pagrindinis() {
@@ -39,6 +43,7 @@ public class Pagrindinis extends Fragment {
     String loginURL="http://centrofm.lt/json/groja-json.php";
     String data = "";
     RequestQueue requestQueue;
+    int x = 0;
 
     String reklamos[] = {
             "Internto svetainė - www.centrofm.lt",
@@ -65,8 +70,36 @@ public class Pagrindinis extends Fragment {
         final TextView output = (TextView) rootView.findViewById(R.id.tv_nowPlaying);
         requestQueue = Volley.newRequestQueue(getActivity());
         final Intent serviceIntent = new Intent(getActivity(), BackgroundRadio.class);
+        final ConnectivityManager connectivityManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
 
-        ConnectivityManager connectivityManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
+        PhoneStateListener phoneStateListener = new PhoneStateListener() {
+            @Override
+            public void onCallStateChanged(int state, String incomingNumber) {
+                if (state == TelephonyManager.CALL_STATE_RINGING) {
+                    img_play.setVisibility(View.VISIBLE);
+                    img_pause.setVisibility(View.INVISIBLE);
+                    getActivity().stopService(serviceIntent);
+                } else if(state == TelephonyManager.CALL_STATE_IDLE) {
+                    if (connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
+                            connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED && x == 0)
+                    {
+                    img_play.setVisibility(View.INVISIBLE);
+                    img_pause.setVisibility(View.VISIBLE);
+                    getActivity().startService(serviceIntent);
+                    }
+                } else if(state == TelephonyManager.CALL_STATE_OFFHOOK) {
+                    img_play.setVisibility(View.VISIBLE);
+                    img_pause.setVisibility(View.INVISIBLE);
+                    getActivity().stopService(serviceIntent);
+                }
+                super.onCallStateChanged(state, incomingNumber);
+            }
+        };
+        TelephonyManager mgr = (TelephonyManager) getActivity().getSystemService(TELEPHONY_SERVICE);
+        if(mgr != null) {
+            mgr.listen(phoneStateListener, PhoneStateListener.LISTEN_CALL_STATE);
+        }
+
         if (connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
                 connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED)
         {
@@ -144,23 +177,25 @@ public class Pagrindinis extends Fragment {
                 img_play.setVisibility(View.VISIBLE);
                 img_pause.setVisibility(View.INVISIBLE);
                 getActivity().stopService(serviceIntent);
+                x = 1;
             }
         });
 
         img_play.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                ConnectivityManager connectivityManager = (ConnectivityManager) getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
                 if (connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
                         connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED)
                     {
                         img_play.setVisibility(View.INVISIBLE);
                         img_pause.setVisibility(View.VISIBLE);
                         getActivity().startService(serviceIntent);
+                        x = 0;
                         Toast.makeText(getActivity(), "Kraunama...", Toast.LENGTH_LONG).show();
                     }
                     else
                     {
                         img_pause.setVisibility(View.INVISIBLE);
+                        x = 1;
                         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
                         builder.setTitle("Perspėjimas!");
                         builder.setMessage("Prašome prisijungti prie interneto!");
