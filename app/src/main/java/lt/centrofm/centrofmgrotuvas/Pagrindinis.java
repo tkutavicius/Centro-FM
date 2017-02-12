@@ -159,9 +159,9 @@ public class Pagrindinis extends Fragment {
                             }
                     );
                     requestQueue.add(jor);
-                    refresh.postDelayed(this, 10000);
+                    refresh.postDelayed(this, 30000);
                 }
-            }, 10000);
+            }, 20000);
         }
         else
         {
