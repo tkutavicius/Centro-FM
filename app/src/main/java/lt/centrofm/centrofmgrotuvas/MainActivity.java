@@ -82,6 +82,11 @@ public class MainActivity extends AppCompatActivity
             intent.setData(Uri.parse("http://kibiras.centrofm.lt/tinklelis"));
             startActivity(intent);
 
+         } else if (id == R.id.nav_paremk) {
+             Intent intent = new Intent(Intent.ACTION_VIEW);
+             intent.setData(Uri.parse("http://centrofm.lt/paremk.php"));
+             startActivity(intent);
+
         } else if (id == R.id.nav_balsuok) {
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse("http://www.radijas.fm/lt/radijas/lietuvos/centro-fm/"));

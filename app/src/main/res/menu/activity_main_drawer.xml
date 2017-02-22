@@ -12,6 +12,10 @@
                 android:icon="@drawable/ic_programa"
                 android:title="Laidų programa" />
             <item
+                android:id="@+id/nav_paremk"
+                android:icon="@drawable/ic_paremk"
+                android:title="Paremk radijo stotį!" />
+            <item
                 android:id="@+id/nav_uzsakyk"
                 android:icon="@drawable/ic_uzsakyk"
                 android:title="Užsakyk dainą!" />
